@@ -20,7 +20,7 @@ if($filas){
     <?php
     include("login.php");
     ?>
-    <h1 class="bad">Ingrese correctamente sus credenciales</h1>
+    
     <?php
 }
 mysqli_free_result($resultado);

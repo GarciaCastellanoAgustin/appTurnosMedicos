@@ -18,25 +18,25 @@
 
  <!--NavBar-->
 
- <nav class="navbar navbar-expand-lg navbar-light bg-primary sticky-top">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
   <div class="container-fluid mx-5">
-    <a class="navbar-brand fw-bold text-white" id="zoom" href="#">Get <span class="text-secondary">organized</span></a>
+    <a class="navbar-brand fw-bold text-white" id="zoom" href="index.php"><img src="img/logo.svg" alt=""><</a>
     <button class="navbar-toggler border-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <img src="img/three-dots-vertical.svg" alt="" class="menuIcon">
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item" id="hover">
-          <a class="nav-link text-white align-self-center" aria-current="page" href="index.html">Home</a>
+      <ul class="navbar-nav ms-auto mb-2 d-flex">
+        <li class="nav-item justify-content-start align-items-start" id="hover">
+          <a class="nav-link text-primary" aria-current="page" href="index.html">Home</a>
         </li>
-        <li class="nav-item" id="hover">
-          <a class="nav-link text-white align-self-center" href="#aboutUs">About us</a>
+        <li class="nav-item justify-content-start align-items-start" id="hover">
+          <a class="nav-link text-primary" href="#aboutUs">About us</a>
         </li>
-        <li class="nav-item me-2" id="hover">
-          <a class="nav-link text-white align-self-center" href="#contact">Contact</a>
+        <li class="nav-itemc justify-content-start align-items-start me-2" id="hover">
+          <a class="nav-link text-primary" href="#contact">Contact</a>
         </li>
         <li class="nav-item" id="zoom">
-          <a class="btn btn-light" href="login.php">Join In</a>
+          <a class="btn btn-primary" href="login.php">Join In</a>
         </li>
       </ul>
     </div>
