@@ -56,8 +56,8 @@
           <!-- Mail -->
           <div class="form-outline mb-4">
 
-          <h2 class="fw-bold align-items-center">Ingresar Mail</h2>
-          <input class="form-control" type="email" placeholder="Ingresar mail" name="mail"/>
+          <h2 class="fw-bold align-items-center">Ingrese DNI</h2>
+          <input class="form-control" type="text" placeholder="Ingresar DNI" name="dni"/>
 
           </div>
 
@@ -80,24 +80,11 @@
           <div class="">
 
             <div class="row mx-auto">
-              <div class="col-4">
-                  <button type="submit" value="Ingresar" class="justify-content-center align-items-center btn btn-primary btn-lg">
+              <div class="col-12">
+                  <button type="submit" value="Ingresar" class="btn btn-primary btn-lg">
                   Ingresar
                   </button>
               </div>
-
-              <div class="col-3">
-
-              <p class="fw-bold">¿No tenes cuenta? <a href="singin.php" class="link-danger">Registrarse</a></p>
-
-              </div>
-
-              <div class="col-4">
-
-              <p class="fw-bold">¿Sos Médico? <a href="adminLogin.php" class="justify-content-center align-items-center link-danger">Entrá acá</a></p>
-
-              </div>
-
             </div>
 
 

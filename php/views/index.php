@@ -64,7 +64,7 @@
 
       <div class="col-lg-6 d-flex bg-light">
         <div class="content mx-auto align-self-center px-4 my-5">
-          <img src="img/pexels-igor-haritanovich-1695052.jpg" alt="" class="img-fluid">
+          <img src="../../img/pexels-igor-haritanovich-1695052.jpg" alt="" class="img-fluid">
         </div>
       </div>
 
@@ -79,7 +79,7 @@
         <div class="row">
 
           <div class="col-lg-6">
-            <div class="content mx-auto px-4 my-5"><img src="img/woman.jpg" class="img-fluid" alt=""></div>
+            <div class="content mx-auto px-4 my-5"><img src="../../img/woman.jpg" class="img-fluid" alt=""></div>
           </div>
 
           <div class="col-lg-6 d-flex">
@@ -137,7 +137,7 @@
  
           <div class="col-lg-5 d-flex">
             <div class="align-self-center mx-auto p-5">
-              <img src="img/woman.jpg" class="img-fluid" alt="">
+              <img src="../../img/woman.jpg" class="img-fluid" alt="">
             </div>
            
           </div>
