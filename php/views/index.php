@@ -20,7 +20,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
   <div class="container-fluid mb-1 mx-3">
-  <a class="navbar-brand fw-bold text-white" id="zoom" href="index.php"><img src="../../img/logo.svg" alt=""></a>
+  <a class="navbar-brand fw-bold text-white" id="zoom" href="index.php"><img src="img/logo.svg" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <img src="img/three-dots-vertical.svg" class="menuIcon">
     </button>
