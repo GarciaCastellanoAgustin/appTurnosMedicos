@@ -1,25 +1,28 @@
 <?php
 
-$bError=false;
-if(isset($_POST['mail'])) {
+include("conexion.php");
 
-    $mail=$_POST['mail'];
-    $pass=$_POST['pass'];
-    session_start();
+if (!empty($_POST)) {
+    $mail= mysqli_real_escape_string($conexion, $_POST['mail']);
+    $pass= mysqli_real_escape_string($conexion, $_POST['pass']);
+    $sql = "SELECT*FROM clientes WHERE mail='$mail' AND pass='$pass' ";
 
-    $conexion=mysqli_connect('localhost', 'root', '', 'medical_app');
+    $resultado = $conexion->query($sql);
+    $rows = $resultado->num_rows;
 
-    $consulta="SELECT*FROM clientes where mail='$mail' and pass='$pass'";
-    $resultado=mysqli_query($conexion, $consulta);
-
-    $filas=mysqli_num_rows($resultado);
-    
-    if($filas>0){
-        $_SESSION['username']=$usuario;
+    if ($rows > 0) {
+        $row = $resultado->fetch_assoc();
+        $_SESSION['numero_cliente'] = $row["clientes"];
         header("location: app.php");
+    } else {
+        echo "
+        <script>
+            alert('error al registrar');
+            window.location = 'login.php';
+        </script>";
     }
-    $bError=true;
-    mysqli_close($conexion);
+
 }
+
 
 require("../views/login.php");
