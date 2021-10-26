@@ -109,7 +109,7 @@
 
             <div class="row mx-auto">
               <div class="col-6">
-                  <button type="submit" value="Ingresar" class="btn btn-primary btn-lg">
+                  <button type="submit" value="Ingresar" class="btn btn-primary btn-lg" name="ingresar">
                   Ingresar
                   </button>
               </div>

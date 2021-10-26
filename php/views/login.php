@@ -51,7 +51,7 @@
       </div>
 
       <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-2">
-        <form action="" method="post">
+        <form action="<?php $_SERVER["PHP_SELF"];?>" method="post">
       
           <!-- Mail -->
           <div class="form-outline mb-4">
@@ -68,20 +68,13 @@
           <input class="form-control" type="password" placeholder="Ingresar contraseña" name="pass"/>
             
           </div>
-          <?php
-          if($bError) {
-          ?>
-            Usuario y/o contraseña incorrecto/s.
-          <?php
-          }
-          ?>
 
           <!-- Checkbox -->
           <div class="">
 
             <div class="row mx-auto">
               <div class="col-4">
-                  <button type="submit" value="Ingresar" class="justify-content-center align-items-center btn btn-primary btn-lg">
+                  <button type="submit" value="Ingresar" name="ingresar" class="justify-content-center align-items-center btn btn-primary btn-lg">
                   Ingresar
                   </button>
               </div>

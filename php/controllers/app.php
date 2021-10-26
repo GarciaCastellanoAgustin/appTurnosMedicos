@@ -1,5 +1,6 @@
 <?php
 
-require("../views/app.php");
-    
+
+require ('../views/app.php');
+
 ?>
