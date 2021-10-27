@@ -51,7 +51,7 @@
           <div class="form-outline mb-4">
 
           <h2 class="fw-bold align-items-center">Fecha de Consulta</h2>
-          <input class="form-control" type="text" placeholder="Ingresar Fecha" name="fecha"/>
+          <input class="form-control" type="date" placeholder="AÑO-MES-DIA" name="fecha"/>
 
           </div>
 
@@ -59,7 +59,7 @@
            <div class="form-outline mb-4">
 
            <h2 class="fw-bold align-items-center">Ingrese Horario</h2>
-           <input class="form-control" type="text" placeholder="Ingresar horario" name="hora"/>
+           <input class="form-control" type="text" placeholder="HH:MM" name="hora"/>
 
            </div>
 

@@ -51,6 +51,12 @@
             <a href="addTask.php" class="btn btn-secondary">Agregar</a>
     </div>
 
+    <div class="align-self-center p-5">
+            <h2 class="display-5 fw-bold mb-3"><?php echo $row['nombre_medico']?></h2>
+            <p class="lead mb-3">Agregar tarea aqui</p>
+            <a href="addTask.php" class="btn btn-secondary">Agregar</a>
+    </div>
+
 
     <!--Scripts-->
     <script src="../../js/bootstrap.bundle.js"></script>

@@ -7,7 +7,7 @@ if(isset($_POST['dni'])) {
     $pass=$_POST['pass'];
     session_start();
 
-    $conexion=mysqli_connect('localhost', 'root', '', 'medical_app');
+    include("conexion.php");
 
     $consulta="SELECT*FROM empleados where dni_empleado='$dni' and pass='$pass'";
     $resultado=mysqli_query($conexion, $consulta);

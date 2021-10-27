@@ -22,7 +22,7 @@ if(isset($_POST['enviar'])) {
         </script>";
     }else{
         $sqlusuario = "INSERT INTO agenda (fecha, hora, dni_cliente, nombre_medico, consulta)
-        VALUES('$fecha', '$hora', '$nombreMedico', '$dni', '$consulta')";
+        VALUES('$fecha', '$hora', '$dni', '$nombreMedico', '$consulta')";
              $resultadousuario = $conexion->query($sqlusuario);
              if($resultadousuario > 0){
                 echo "
