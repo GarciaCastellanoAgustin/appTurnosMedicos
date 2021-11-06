@@ -51,17 +51,37 @@
             <a href="addTask.php" class="btn btn-secondary">Agregar</a>
     </div>
 
-    <div class="align-self-center p-5">
-            <h2 class="display-5 fw-bold mb-3"><?php echo $row['nombre_medico']?></h2>
-            <p class="lead mb-3">Agregar tarea aqui</p>
-            <a href="addTask.php" class="btn btn-secondary">Agregar</a>
+    <div class="lign-self-center p-5">
+        <h2 class="display-5 fw-bold mb-3">Turnos ya agendados</h2>
     </div>
+
+
+    <?php
+
+        foreach ($conexion->query("SELECT * FROM agenda") as $row){
+
+      ?>
+
+        <div class="align-self-center p-5">
+        <p class="lead mb-3">Medico: <?php echo $row['nombre_medico']?></p>
+        <p class="lead mb-3">Dia: <?php echo $row['fecha']?></p>
+        <p class="lead mb-3">Hora: <?php echo $row['hora']?></p>
+        </div>
+
+        <?php
+
+            }
+
+          ?>
+
+         
+
+    
 
 
     <!--Scripts-->
     <script src="../../js/bootstrap.bundle.js"></script>
     <script src="../../js/index.js"></script>
-    <script src="../../js/app.js"></script>
     
   </body>
 </html>
