@@ -58,7 +58,7 @@
           <small class="text-primary"><span class="badge bg-secondary me-2">Lorem</span> Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
           <h1 class="display-4 fw-bold">Lorem ipsum <span class="text-primary">bar</span></h1>
           <p class="lead mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa modi asperiores pariatur vel, recusandae quis!</p>
-          <a href="app.html" class="btn btn-secondary">Abre tu cuenta hoy</a>
+          <a href="app.php" class="btn btn-secondary">Abre tu cuenta hoy</a>
         </div>
       </div>
 
@@ -157,7 +157,7 @@
         <div class="col-md-2 mx-5">
           <h3 class="fw-bold mb-3">Find more:</h3>
           <ul class="list-unstyled">
-            <li class="mb-3"><a href="index.html" class="text-primary text-decoration-none">Home</a></li>
+            <li class="mb-3"><a href="index.php" class="text-primary text-decoration-none">Home</a></li>
             <li class="mb-3"><a href="#aboutUs" class="text-primary text-decoration-none">About us</a></li>
           </ul>
         </div>
