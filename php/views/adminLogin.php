@@ -23,12 +23,6 @@
         <li class="nav-item mx-3" id="hover">
         <a class="nav-link text-primary" aria-current="page" href="index.php">Inicio</a>
         </li>
-        <li class="nav-item mx-3" id="hover">
-        <a class="nav-link text-primary" href="#aboutUs">Nosotros</a>
-        </li>
-        <li class="nav-item mx-3" id="hover">
-        <a class="nav-link" href="#contact">Contacto</a>
-        </li>
       </ul>
 
       <span class="navbar-text mx-1" id="hover">
@@ -77,7 +71,7 @@
           ?>
 
           <!-- Checkbox -->
-          <div class="">
+          <div class="align-items-center">
 
             <div class="row mx-auto">
               <div class="col-12">
@@ -86,12 +80,6 @@
                   </button>
               </div>
             </div>
-
-
-
-
-           
-
 
           </div>
 

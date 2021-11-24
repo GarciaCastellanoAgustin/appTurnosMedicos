@@ -20,16 +20,9 @@
         <li class="nav-item mx-3" id="hover">
         <a class="nav-link text-primary" aria-current="page" href="index.php">Inicio</a>
         </li>
-        <li class="nav-item mx-3" id="hover">
-        <a class="nav-link text-primary" href="#aboutUs">Nosotros</a>
-        </li>
-        <li class="nav-item mx-3" id="hover">
-        <a class="nav-link" href="#contact">Contacto</a>
-        </li>
       </ul>
-
       <span class="navbar-text mx-1" id="hover">
-      <a class="nav-link text-primary" href="#contact">Registrate</a>
+      <a class="nav-link text-primary" href="singin.php">Registrate</a>
       </span>
       <span class="navbar-text"  id="zoom">
       <a class="btn btn-primary text-white" href="login.php">Iniciar sesión</a>
@@ -118,7 +111,7 @@
                   <div class="form-check">
 
                   <input class="form-check-input me-2" type="checkbox" value=""/>
-                  <label class="form-check-label">estoy roto</label>
+                  <label class="form-check-label">Guardar Contraseña</label>
                   
                   </div>
               </div>

@@ -28,7 +28,7 @@
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             
             <li class="nav-item" id="hover">
-              <a class="nav-link text-white align-self-center" aria-current="page" href="index.">Home</a>
+              <a class="nav-link text-white align-self-center" aria-current="page" href="index.php">Home</a>
             </li>
             <li class="nav-item me-2" id="hover">
               <a class="nav-link text-white align-self-center" href="index.php

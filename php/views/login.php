@@ -23,12 +23,6 @@
         <li class="nav-item mx-3" id="hover">
         <a class="nav-link text-primary" aria-current="page" href="index.php">Inicio</a>
         </li>
-        <li class="nav-item mx-3" id="hover">
-        <a class="nav-link text-primary" href="#aboutUs">Nosotros</a>
-        </li>
-        <li class="nav-item mx-3" id="hover">
-        <a class="nav-link" href="#contact">Contacto</a>
-        </li>
       </ul>
 
       <span class="navbar-text mx-1" id="hover">
