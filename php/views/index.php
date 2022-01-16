@@ -58,7 +58,7 @@
           <small class="text-primary"><span class="badge bg-secondary me-2">Lorem</span> Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
           <h1 class="display-4 fw-bold">Lorem ipsum <span class="text-primary">bar</span></h1>
           <p class="lead mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa modi asperiores pariatur vel, recusandae quis!</p>
-          <a href="app.php" class="btn btn-secondary">Abre tu cuenta hoy</a>
+          <a href="login.php" class="btn btn-secondary">Abre tu cuenta hoy</a>
         </div>
       </div>
 

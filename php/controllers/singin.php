@@ -18,23 +18,23 @@ if(isset($_POST['ingresar'])) {
     if ($filas > 0) {
         echo "
         <script>
-            alert('el usuario ya existe');
+            alert('El usuario ya existe');
             window.location = 'singin.php';
         </script>";
     }else{
         $sqlusuario = "INSERT INTO clientes (nombre, apellido, mail, edad, telefono, pass)
-             VALUES('$nombre', '$apellido', '$edad', '$mail', '$telefono', '$pass')";
+             VALUES('$nombre', '$apellido', '$mail', '$edad', '$telefono', '$pass')";
              $resultadousuario = $conexion->query($sqlusuario);
              if($resultadousuario > 0){
                 echo "
                 <script>
-                    alert('registro bien');
+                    alert('Registro Exitoso');
                     window.location = 'app.php';
                 </script>";
              } else {
                 echo "
                 <script>
-                    alert('error al registrar');
+                    alert('Error al Registrar');
                     window.location = 'singin.php';
                 </script>";
              }

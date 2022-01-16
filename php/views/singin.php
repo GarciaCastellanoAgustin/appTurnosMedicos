@@ -62,15 +62,6 @@
 
           </div>
 
-          <!-- Edad -->
-
-          <div class="form-outline mb-4">
-
-          <h2 class="fw-bold align-items-center">Edad</h2>
-          <input class="form-control" type="text" placeholder="Ingresar edad" name="edad"/>
-
-          </div>
-
           <!-- Mail -->
 
           <div class="form-outline mb-4">
@@ -79,6 +70,15 @@
           <input class="form-control" type="email" placeholder="Ingresar Mail" name="mail"/>
 
           </div>
+
+          <!-- Edad -->
+
+          <div class="form-outline mb-4">
+
+          <h2 class="fw-bold align-items-center">Edad</h2>
+          <input class="form-control" type="text" placeholder="Ingresar edad" name="edad"/>
+
+        </div>
 
           <!-- Telefono -->
 

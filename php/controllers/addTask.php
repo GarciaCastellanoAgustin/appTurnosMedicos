@@ -17,7 +17,7 @@ if(isset($_POST['enviar'])) {
     if ($filas > 0) {
         echo "
         <script>
-            alert('el usuario ya existe');
+            alert('La consulta ya existe');
             window.location = 'singin.php';
         </script>";
     }else{
@@ -27,13 +27,13 @@ if(isset($_POST['enviar'])) {
              if($resultadousuario > 0){
                 echo "
                 <script>
-                    alert('registro bien');
+                    alert('Registro Exitoso');
                     window.location = 'app.php';
                 </script>";
              } else {
                 echo "
                 <script>
-                    alert('error al registrar');
+                    alert('Error al registrar');
                     window.location = 'addTask.php';
                 </script>";
              }

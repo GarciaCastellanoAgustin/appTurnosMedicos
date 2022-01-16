@@ -26,7 +26,7 @@
       </ul>
 
       <span class="navbar-text mx-1" id="hover">
-      <a class="nav-link text-primary" href="#contact">Registrate</a>
+      <a class="nav-link text-primary" href="singin.php">Registrate</a>
       </span>
       <span class="navbar-text"  id="zoom">
       <a class="btn btn-primary text-white" href="login.php">Iniciar sesión</a>
